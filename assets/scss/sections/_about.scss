@@ -1,0 +1,66 @@
+
+/*--------------------------------------------------------------
+# About => SOBRE NOSOTROS
+--------------------------------------------------------------*/
+  .about{
+    height: 750px;
+    .content {
+      margin-left: 50px;
+      padding: 30px 0;
+      h3 {
+        font-weight: 700;
+        font-size: 34px;
+        color: #0794A9;
+      }
+      p {
+        margin-bottom: 0;
+      }
+      .icon-box {
+        margin-top: 25px;
+        h4 {
+          font-size: 20px;
+          font-weight: 700;
+          margin: 5px 0 10px 60px;
+          color: #0794A9;
+          a {
+            color: #0794A9;
+            transition: 0.3s;
+            :hover {
+              color: #0794A9;
+            }
+          }
+        }
+        i {
+          font-size: 48px;
+          float: left;
+          color: #0794A9;
+        }
+        p {
+          font-size: 15px;
+          color: #fff;
+          margin-left: 60px;
+        }
+      }
+    }
+    .image {
+      background: url("https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") center center no-repeat;
+      background-size: cover;
+      min-height: 400px;
+    }
+  } 
+  
+ 
+  @media (max-width: 1025px) {
+    .about{
+      height: auto;
+      .content {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .image {
+       img{
+        max-width: 100%;
+       }
+      }
+    }
+  }
